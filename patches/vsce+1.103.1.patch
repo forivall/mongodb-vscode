@@ -1,0 +1,15 @@
+diff --git a/node_modules/vsce/out/npm.js b/node_modules/vsce/out/npm.js
+index 1d99368..8f1edf5 100644
+--- a/node_modules/vsce/out/npm.js
++++ b/node_modules/vsce/out/npm.js
+@@ -31,6 +31,10 @@ function exec(command, options = {}, cancellationToken) {
+                 disposeCancellationListener = null;
+             }
+             if (err) {
++                if (command.startsWith('npm list') && stderr.includes('ELSPROBLEMS') && stderr.includes('invalid: react') && !stderr.includes('missing')) {
++                    console.warn(stderr);
++                    return c({stdout, stderr})
++                }
+                 return e(err);
+             }
+             c({ stdout, stderr });
