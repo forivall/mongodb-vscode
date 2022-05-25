@@ -650,6 +650,10 @@
           "when": "mdb.isPlayground == true && mdb.connectedToMongoDB == true"
         },
         {
+          "command": "mdb.exportToRuby",
+          "when": "editorLangId == mongodb"
+        },
+        {
           "command": "mdb.refreshPlaygroundsFromTreeView",
           "when": "false"
         },
