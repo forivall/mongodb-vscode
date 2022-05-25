@@ -560,6 +560,1438 @@
       "  preserveNullAndEmptyArrays: ${3:boolean}",
       "}"
     ],
-    "description": "Outputs a new document for each element in a specified array. "
+    "description": "Outputs a new document for each element in a specified array."
+  },
+  "MongoDB Query $all": {
+    "prefix": "$all",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/all/ */",
+      "\\$all: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $and": {
+    "prefix": "$and",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/and/ */",
+      "\\$and: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $bitsAllClear": {
+    "prefix": "$bitsAllClear",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/bitsAllClear/ */",
+      "\\$bitsAllClear: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $bitsAllSet": {
+    "prefix": "$bitsAllSet",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/bitsAllSet/ */",
+      "\\$bitsAllSet: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $bitsAnyClear": {
+    "prefix": "$bitsAnyClear",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/bitsAnyClear/ */",
+      "\\$bitsAnyClear: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $bitsAnySet": {
+    "prefix": "$bitsAnySet",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/bitsAnySet/ */",
+      "\\$bitsAnySet: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $comment": {
+    "prefix": "$comment",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/comment/ */",
+      "\\$comment: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $elemMatch": {
+    "prefix": "$elemMatch",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/elemMatch/ */",
+      "\\$elemMatch: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $eq": {
+    "prefix": "$eq",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/eq/ */",
+      "\\$eq: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $exists": {
+    "prefix": "$exists",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/exists/ */",
+      "\\$exists: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $expr": {
+    "prefix": "$expr",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/expr/ */",
+      "\\$expr: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $geoIntersects": {
+    "prefix": "$geoIntersects",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/geoIntersects/ */",
+      "\\$geoIntersects: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $geoWithin": {
+    "prefix": "$geoWithin",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/geoWithin/ */",
+      "\\$geoWithin: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $gt": {
+    "prefix": "$gt",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/gt/ */",
+      "\\$gt: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $gte": {
+    "prefix": "$gte",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/gte/ */",
+      "\\$gte: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $in": {
+    "prefix": "$in",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/in/ */",
+      "\\$in: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $jsonSchema": {
+    "prefix": "$jsonSchema",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/jsonSchema/ */",
+      "\\$jsonSchema: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $lt": {
+    "prefix": "$lt",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/lt/ */",
+      "\\$lt: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $lte": {
+    "prefix": "$lte",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/lte/ */",
+      "\\$lte: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $mod": {
+    "prefix": "$mod",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/mod/ */",
+      "\\$mod: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $ne": {
+    "prefix": "$ne",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/ne/ */",
+      "\\$ne: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $near": {
+    "prefix": "$near",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/near/ */",
+      "\\$near: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $nearSphere": {
+    "prefix": "$nearSphere",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/nearSphere/ */",
+      "\\$nearSphere: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $nin": {
+    "prefix": "$nin",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/nin/ */",
+      "\\$nin: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $not": {
+    "prefix": "$not",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/not/ */",
+      "\\$not: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $nor": {
+    "prefix": "$nor",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/nor/ */",
+      "\\$nor: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $or": {
+    "prefix": "$or",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/or/ */",
+      "\\$or: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $regex": {
+    "prefix": "$regex",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/regex/ */",
+      "\\$regex: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $size": {
+    "prefix": "$size",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/size/ */",
+      "\\$size: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $slice": {
+    "prefix": "$slice",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/slice/ */",
+      "\\$slice: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $text": {
+    "prefix": "$text",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/text/ */",
+      "\\$text: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $type": {
+    "prefix": "$type",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/type/ */",
+      "\\$type: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Query $where": {
+    "prefix": "$where",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/query/where/ */",
+      "\\$where: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $abs": {
+    "prefix": "$abs",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/abs/ */",
+      "\\$abs: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $accumulator": {
+    "prefix": "$accumulator",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/accumulator/ */",
+      "\\$accumulator: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $add": {
+    "prefix": "$add",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/add/ */",
+      "\\$add: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $allElementsTrue": {
+    "prefix": "$allElementsTrue",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/allElementsTrue/ */",
+      "\\$allElementsTrue: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $and": {
+    "prefix": "$and",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/and/ */",
+      "\\$and: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $anyElementTrue": {
+    "prefix": "$anyElementTrue",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/anyElementTrue/ */",
+      "\\$anyElementTrue: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $arrayElemAt": {
+    "prefix": "$arrayElemAt",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/arrayElemAt/ */",
+      "\\$arrayElemAt: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $arrayToObject": {
+    "prefix": "$arrayToObject",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/arrayToObject/ */",
+      "\\$arrayToObject: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $binarySize": {
+    "prefix": "$binarySize",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/binarySize/ */",
+      "\\$binarySize: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $bsonSize": {
+    "prefix": "$bsonSize",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/bsonSize/ */",
+      "\\$bsonSize: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $ceil": {
+    "prefix": "$ceil",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/ceil/ */",
+      "\\$ceil: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $cmp": {
+    "prefix": "$cmp",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/cmp/ */",
+      "\\$cmp: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $concat": {
+    "prefix": "$concat",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/concat/ */",
+      "\\$concat: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $concatArrays": {
+    "prefix": "$concatArrays",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/concatArrays/ */",
+      "\\$concatArrays: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $cond": {
+    "prefix": "$cond",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/cond/ */",
+      "\\$cond: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dateAdd": {
+    "prefix": "$dateAdd",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dateAdd/ */",
+      "\\$dateAdd: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dateDiff": {
+    "prefix": "$dateDiff",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dateDiff/ */",
+      "\\$dateDiff: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dateFromParts": {
+    "prefix": "$dateFromParts",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dateFromParts/ */",
+      "\\$dateFromParts: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dateFromString": {
+    "prefix": "$dateFromString",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dateFromString/ */",
+      "\\$dateFromString: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dateSubtract": {
+    "prefix": "$dateSubtract",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dateSubtract/ */",
+      "\\$dateSubtract: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dateToParts": {
+    "prefix": "$dateToParts",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dateToParts/ */",
+      "\\$dateToParts: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dateToString": {
+    "prefix": "$dateToString",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dateToString/ */",
+      "\\$dateToString: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dateTrunc": {
+    "prefix": "$dateTrunc",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dateTrunc/ */",
+      "\\$dateTrunc: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dayOfMonth": {
+    "prefix": "$dayOfMonth",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dayOfMonth/ */",
+      "\\$dayOfMonth: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dayOfWeek": {
+    "prefix": "$dayOfWeek",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dayOfWeek/ */",
+      "\\$dayOfWeek: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $dayOfYear": {
+    "prefix": "$dayOfYear",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/dayOfYear/ */",
+      "\\$dayOfYear: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $divide": {
+    "prefix": "$divide",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/divide/ */",
+      "\\$divide: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $eq": {
+    "prefix": "$eq",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/eq/ */",
+      "\\$eq: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $exp": {
+    "prefix": "$exp",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/exp/ */",
+      "\\$exp: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $filter": {
+    "prefix": "$filter",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/filter/ */",
+      "\\$filter: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $first": {
+    "prefix": "$first",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/first/ */",
+      "\\$first: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $floor": {
+    "prefix": "$floor",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/floor/ */",
+      "\\$floor: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $function": {
+    "prefix": "$function",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/function/ */",
+      "\\$function: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $getField": {
+    "prefix": "$getField",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/getField/ */",
+      "\\$getField: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $gt": {
+    "prefix": "$gt",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/gt/ */",
+      "\\$gt: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $gte": {
+    "prefix": "$gte",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/gte/ */",
+      "\\$gte: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $hour": {
+    "prefix": "$hour",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/hour/ */",
+      "\\$hour: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $ifNull": {
+    "prefix": "$ifNull",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/ifNull/ */",
+      "\\$ifNull: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $in": {
+    "prefix": "$in",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/in/ */",
+      "\\$in: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $indexOfArray": {
+    "prefix": "$indexOfArray",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/indexOfArray/ */",
+      "\\$indexOfArray: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $indexOfBytes": {
+    "prefix": "$indexOfBytes",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/indexOfBytes/ */",
+      "\\$indexOfBytes: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $indexOfCP": {
+    "prefix": "$indexOfCP",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/indexOfCP/ */",
+      "\\$indexOfCP: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $isArray": {
+    "prefix": "$isArray",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/isArray/ */",
+      "\\$isArray: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $isNumber": {
+    "prefix": "$isNumber",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/isNumber/ */",
+      "\\$isNumber: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $isoDayOfWeek": {
+    "prefix": "$isoDayOfWeek",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/isoDayOfWeek/ */",
+      "\\$isoDayOfWeek: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $isoWeek": {
+    "prefix": "$isoWeek",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/isoWeek/ */",
+      "\\$isoWeek: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $isoWeekYear": {
+    "prefix": "$isoWeekYear",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/isoWeekYear/ */",
+      "\\$isoWeekYear: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $last": {
+    "prefix": "$last",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/last/ */",
+      "\\$last: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $let": {
+    "prefix": "$let",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/let/ */",
+      "\\$let: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $literal": {
+    "prefix": "$literal",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/literal/ */",
+      "\\$literal: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $lt": {
+    "prefix": "$lt",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/lt/ */",
+      "\\$lt: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $ln": {
+    "prefix": "$ln",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/ln/ */",
+      "\\$ln: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $log": {
+    "prefix": "$log",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/log/ */",
+      "\\$log: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $log10": {
+    "prefix": "$log10",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/log10/ */",
+      "\\$log10: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $map": {
+    "prefix": "$map",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/map/ */",
+      "\\$map: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $mergeObjects": {
+    "prefix": "$mergeObjects",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/mergeObjects/ */",
+      "\\$mergeObjects: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $meta": {
+    "prefix": "$meta",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/meta/ */",
+      "\\$meta: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $millisecond": {
+    "prefix": "$millisecond",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/millisecond/ */",
+      "\\$millisecond: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $minute": {
+    "prefix": "$minute",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/minute/ */",
+      "\\$minute: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $mod": {
+    "prefix": "$mod",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/mod/ */",
+      "\\$mod: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $month": {
+    "prefix": "$month",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/month/ */",
+      "\\$month: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $multiply": {
+    "prefix": "$multiply",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/multiply/ */",
+      "\\$multiply: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $new": {
+    "prefix": "$new",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/new/ */",
+      "\\$new: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $not": {
+    "prefix": "$not",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/not/ */",
+      "\\$not: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $objectToArray": {
+    "prefix": "$objectToArray",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/objectToArray/ */",
+      "\\$objectToArray: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $or": {
+    "prefix": "$or",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/or/ */",
+      "\\$or: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $pow": {
+    "prefix": "$pow",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/pow/ */",
+      "\\$pow: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $range": {
+    "prefix": "$range",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/range/ */",
+      "\\$range: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $reduce": {
+    "prefix": "$reduce",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/reduce/ */",
+      "\\$reduce: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $regexFind": {
+    "prefix": "$regexFind",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/regexFind/ */",
+      "\\$regexFind: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $regexFindAll": {
+    "prefix": "$regexFindAll",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/regexFindAll/ */",
+      "\\$regexFindAll: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $regexMatch": {
+    "prefix": "$regexMatch",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/regexMatch/ */",
+      "\\$regexMatch: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $replaceAll": {
+    "prefix": "$replaceAll",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/replaceAll/ */",
+      "\\$replaceAll: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $replaceOne": {
+    "prefix": "$replaceOne",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/replaceOne/ */",
+      "\\$replaceOne: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $reverseArray": {
+    "prefix": "$reverseArray",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/reverseArray/ */",
+      "\\$reverseArray: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $second": {
+    "prefix": "$second",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/second/ */",
+      "\\$second: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $setDifference": {
+    "prefix": "$setDifference",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/setDifference/ */",
+      "\\$setDifference: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $setEquals": {
+    "prefix": "$setEquals",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/setEquals/ */",
+      "\\$setEquals: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $setIntersection": {
+    "prefix": "$setIntersection",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/setIntersection/ */",
+      "\\$setIntersection: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $setIsSubset": {
+    "prefix": "$setIsSubset",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/setIsSubset/ */",
+      "\\$setIsSubset: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $setUnion": {
+    "prefix": "$setUnion",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/setUnion/ */",
+      "\\$setUnion: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $size": {
+    "prefix": "$size",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/size/ */",
+      "\\$size: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $slice": {
+    "prefix": "$slice",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/slice/ */",
+      "\\$slice: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $sortArray": {
+    "prefix": "$sortArray",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/sortArray/ */",
+      "\\$sortArray: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $split": {
+    "prefix": "$split",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/split/ */",
+      "\\$split: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $sqrt": {
+    "prefix": "$sqrt",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/sqrt/ */",
+      "\\$sqrt: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $strcasecmp": {
+    "prefix": "$strcasecmp",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/strcasecmp/ */",
+      "\\$strcasecmp: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $strLenBytes": {
+    "prefix": "$strLenBytes",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/strLenBytes/ */",
+      "\\$strLenBytes: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $strLenCP": {
+    "prefix": "$strLenCP",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/strLenCP/ */",
+      "\\$strLenCP: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $substr": {
+    "prefix": "$substr",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/substr/ */",
+      "\\$substr: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $substrBytes": {
+    "prefix": "$substrBytes",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/substrBytes/ */",
+      "\\$substrBytes: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $substrCP": {
+    "prefix": "$substrCP",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/substrCP/ */",
+      "\\$substrCP: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $subtract": {
+    "prefix": "$subtract",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/subtract/ */",
+      "\\$subtract: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $switch": {
+    "prefix": "$switch",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/switch/ */",
+      "\\$switch: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $toLower": {
+    "prefix": "$toLower",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/toLower/ */",
+      "\\$toLower: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $toUpper": {
+    "prefix": "$toUpper",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/toUpper/ */",
+      "\\$toUpper: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $tsSecond": {
+    "prefix": "$tsSecond",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/tsSecond/ */",
+      "\\$tsSecond: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $tsIncrement": {
+    "prefix": "$tsIncrement",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/tsIncrement/ */",
+      "\\$tsIncrement: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $trunc": {
+    "prefix": "$trunc",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/trunc/ */",
+      "\\$trunc: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $type": {
+    "prefix": "$type",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/type/ */",
+      "\\$type: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $week": {
+    "prefix": "$week",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/week/ */",
+      "\\$week: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $year": {
+    "prefix": "$year",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/year/ */",
+      "\\$year: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Expression $zip": {
+    "prefix": "$zip",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/zip/ */",
+      "\\$zip: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $convert": {
+    "prefix": "$convert",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/convert/ */",
+      "\\$convert: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $ltrim": {
+    "prefix": "$ltrim",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/ltrim/ */",
+      "\\$ltrim: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $rtrim": {
+    "prefix": "$rtrim",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/rtrim/ */",
+      "\\$rtrim: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $toBool": {
+    "prefix": "$toBool",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/toBool/ */",
+      "\\$toBool: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $toDate": {
+    "prefix": "$toDate",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/toDate/ */",
+      "\\$toDate: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $toDecimal": {
+    "prefix": "$toDecimal",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/toDecimal/ */",
+      "\\$toDecimal: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $toDouble": {
+    "prefix": "$toDouble",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/toDouble/ */",
+      "\\$toDouble: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $toInt": {
+    "prefix": "$toInt",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/toInt/ */",
+      "\\$toInt: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $toLong": {
+    "prefix": "$toLong",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/toLong/ */",
+      "\\$toLong: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $toObjectId": {
+    "prefix": "$toObjectId",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/toObjectId/ */",
+      "\\$toObjectId: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $toString": {
+    "prefix": "$toString",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/toString/ */",
+      "\\$toString: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Conversion $trim": {
+    "prefix": "$trim",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/trim/ */",
+      "\\$trim: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $accumulator": {
+    "prefix": "$accumulator",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/accumulator/ */",
+      "\\$accumulator: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $addToSet": {
+    "prefix": "$addToSet",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/addToSet/ */",
+      "\\$addToSet: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $avg": {
+    "prefix": "$avg",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/avg/ */",
+      "\\$avg: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $bottom": {
+    "prefix": "$bottom",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/bottom/ */",
+      "\\$bottom: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $bottomN": {
+    "prefix": "$bottomN",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/bottomN/ */",
+      "\\$bottomN: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $covariancePop": {
+    "prefix": "$covariancePop",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/covariancePop/ */",
+      "\\$covariancePop: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $covarianceSamp": {
+    "prefix": "$covarianceSamp",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/covarianceSamp/ */",
+      "\\$covarianceSamp: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $count": {
+    "prefix": "$count",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/count/ */",
+      "\\$count: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $derivative": {
+    "prefix": "$derivative",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/derivative/ */",
+      "\\$derivative: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $denseRank": {
+    "prefix": "$denseRank",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/denseRank/ */",
+      "\\$denseRank: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $documentNumber": {
+    "prefix": "$documentNumber",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/documentNumber/ */",
+      "\\$documentNumber: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $expMovingAvg": {
+    "prefix": "$expMovingAvg",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/expMovingAvg/ */",
+      "\\$expMovingAvg: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $first": {
+    "prefix": "$first",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/first/ */",
+      "\\$first: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $firstN": {
+    "prefix": "$firstN",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/firstN/ */",
+      "\\$firstN: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $integral": {
+    "prefix": "$integral",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/integral/ */",
+      "\\$integral: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $last": {
+    "prefix": "$last",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/last/ */",
+      "\\$last: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $lastN": {
+    "prefix": "$lastN",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/lastN/ */",
+      "\\$lastN: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $max": {
+    "prefix": "$max",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/max/ */",
+      "\\$max: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $maxN": {
+    "prefix": "$maxN",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/maxN/ */",
+      "\\$maxN: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $min": {
+    "prefix": "$min",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/min/ */",
+      "\\$min: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $minN": {
+    "prefix": "$minN",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/minN/ */",
+      "\\$minN: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $push": {
+    "prefix": "$push",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/push/ */",
+      "\\$push: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $rank": {
+    "prefix": "$rank",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/rank/ */",
+      "\\$rank: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $stdDevPop": {
+    "prefix": "$stdDevPop",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/stdDevPop/ */",
+      "\\$stdDevPop: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $stdDevSamp": {
+    "prefix": "$stdDevSamp",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/stdDevSamp/ */",
+      "\\$stdDevSamp: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $shift": {
+    "prefix": "$shift",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/shift/ */",
+      "\\$shift: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $sum": {
+    "prefix": "$sum",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/sum/ */",
+      "\\$sum: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $top": {
+    "prefix": "$top",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/top/ */",
+      "\\$top: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $topN": {
+    "prefix": "$topN",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/topN/ */",
+      "\\$topN: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $locf": {
+    "prefix": "$locf",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/locf/ */",
+      "\\$locf: ${1:value}"
+    ],
+    "description": ""
+  },
+  "MongoDB Accumulator $linearFill": {
+    "prefix": "$linearFill",
+    "body": [
+      "/** @see https://www.mongodb.com/docs/manual/reference/operator/aggregation/linearFill/ */",
+      "\\$linearFill: ${1:value}"
+    ],
+    "description": ""
   }
 }

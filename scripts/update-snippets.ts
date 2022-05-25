@@ -7,7 +7,7 @@ import fs = require('fs');
 
 const { promisify } = require('util');
 const writeFile = promisify(fs.writeFile);
-const { STAGE_OPERATORS } = require('mongodb-ace-autocompleter');
+const { STAGE_OPERATORS, QUERY_OPERATORS, EXPRESSION_OPERATORS, CONVERSION_OPERATORS, ACCUMULATORS } = require('mongodb-ace-autocompleter');
 const SNIPPETS_DIR = path.join(__dirname, '..', 'snippets');
 
 /**
@@ -49,27 +49,37 @@ const snippetTemplate = (
   return { prefix, body, description };
 };
 
-const snippets = STAGE_OPERATORS.reduce(
-  (
-    prev: any,
-    curr: {
-      label: string;
-      name: string;
-      description: string;
-      snippet: string;
-      comment?: string;
-    }
-  ) => {
-    prev[`MongoDB Aggregations ${curr.name}`] = snippetTemplate(
-      curr.label,
-      curr.description,
-      curr.snippet,
-      curr.comment
-    );
-    return prev;
-  },
-  {}
-);
+interface AceAutocompleterEntry {
+  label: string;
+  name: string;
+  description: string;
+  value: string;
+  snippet?: string;
+  comment?: string;
+  meta: string
+}
+const docsUrl = (meta: string, name: string) => `https://www.mongodb.com/docs/manual/reference/operator/${meta === 'query' ? meta : 'aggregation'}/${name.slice(1)}/`
+function convertSnippets(snippets: any, prefix: string) {
+  return snippets.reduce((prev: any, curr: AceAutocompleterEntry) => {
+    prev[`MongoDB ${prefix} ${curr.name}`] = snippetTemplate(
+      curr.label || curr.name,
+      (
+        (curr.description || '')
+        //  + `\n\n[Read More](${toUrl(curr.meta, curr.name)})`
+      ).trim(),
+      curr.snippet || '${1:value}',
+      curr.comment || `/** @see ${docsUrl(curr.meta, curr.name)} */\n`
+    )
+    return prev
+  }, {})
+}
+const snippets = {
+  ...convertSnippets(STAGE_OPERATORS, 'Aggregations'),
+  ...convertSnippets(QUERY_OPERATORS, 'Query'),
+  ...convertSnippets(EXPRESSION_OPERATORS, 'Expression'),
+  ...convertSnippets(CONVERSION_OPERATORS, 'Conversion'),
+  ...convertSnippets(ACCUMULATORS, 'Accumulator'),
+};
 
 (async () => {
   const ui = ora('Update snippets').start();
