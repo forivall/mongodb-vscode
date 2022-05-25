@@ -178,12 +178,17 @@ export class Visitor {
       ast = parser.parse(textFromEditor, {
         // Parse in strict mode and allow module declarations
         sourceType: 'module',
+        errorRecovery: true,
       });
     } catch (error) {
       console.error(`parseAST error: ${util.inspect((error as any).message)}`);
       console.error(
         `parseAST error textFromEditor: ${util.inspect(textFromEditor)}`
       );
+    }
+
+    if (ast.errors?.length > 0) {
+      this._console.warn(`parseAST error(s): ${util.inspect(ast.errors)}`);
     }
 
     traverse(ast, {
