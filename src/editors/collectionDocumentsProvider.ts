@@ -1,5 +1,6 @@
 import * as vscode from 'vscode';
 import { URLSearchParams } from 'url';
+import { EJSON } from 'bson';
 
 import CollectionDocumentsOperationsStore from './collectionDocumentsOperationsStore';
 import ConnectionController from '../connectionController';
@@ -102,6 +103,13 @@ export default class CollectionViewProvider
         namespace,
         uri,
       });
+
+      try {
+        const json = EJSON.deserialize(documents);
+        return JSON.stringify(json, null, 2);
+      } catch (err) {
+        // ignore for now
+      }
 
       return JSON.stringify(documents, null, 2);
     } catch (error) {

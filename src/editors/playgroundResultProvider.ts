@@ -1,4 +1,5 @@
 import * as vscode from 'vscode';
+import { EJSON } from 'bson';
 
 import ConnectionController from '../connectionController';
 import EditDocumentCodeLensProvider from './editDocumentCodeLensProvider';
@@ -69,6 +70,12 @@ export default class PlaygroundResultProvider
       this._playgroundResult
     );
 
+    try {
+      const ejson = EJSON.deserialize(content);
+      return JSON.stringify(ejson, null, 2);
+    } catch (err) {
+      // ignore for now
+    }
     return JSON.stringify(content, null, 2);
   }
 }
