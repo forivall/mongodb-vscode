@@ -72,8 +72,8 @@ export default class CollectionDocumentsCodeLensProvider
     const operation = this._activeOperationsStore.operations[operationId];
     const amountOfDocs = operation.currentLimit;
 
-    let commandTitle;
-    let commandTooltip;
+    let commandTitle: string;
+    let commandTooltip: string;
 
     if (operation.isCurrentlyFetchingMoreDocuments) {
       commandTitle = `... Fetching ${amountOfDocs} documents...`;
